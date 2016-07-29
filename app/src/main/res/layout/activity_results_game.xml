@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/results"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Match Statistics"
+                android:id="@+id/textView8"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Players"
+                android:id="@+id/playersName"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/emptyString3"
+                android:id="@+id/player1Name"
+                android:textColor="#ffffff"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/emptyString4"
+                android:id="@+id/player2Name"
+                android:textColor="#ffffff"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sets"
+                android:id="@+id/setsWon"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/player1Set"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/player2Set"
+                android:textColor="#ffffff"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Game"
+                android:id="@+id/gameWon"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/player1Game"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/player2Game"
+                android:textColor="#ffffff"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Points"
+                android:id="@+id/pointsWon"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/player1Points"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/player2Points"
+                android:textColor="#ffffff"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESET STATISTICS"
+                android:id="@+id/resetStats"
+                android:background="@drawable/button_shape"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center" />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

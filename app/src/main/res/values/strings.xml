@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tennis Scorer</string>
+    <string name="emptyString1" />
+    <string name="emptyString2" />
+    <string name="BEGIN">BEGIN </string>
+    <string name="PAUSE">PAUSE </string>
+    <string name="String3" />
+    <string name="emptyString3" />
+    <string name="emptyString4" />
+
+</resources>
